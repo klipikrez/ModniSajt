@@ -1,0 +1,151 @@
+.header {
+  position: absolute;
+  font-family: "Cuttujemwud";
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  z-index: 52;
+}
+
+.header nav {
+  width: 100%;
+  z-index: 52;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  z-index: 52;
+}
+
+.header li {
+  margin: 1.5rem;
+  z-index: 52;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+  z-index: 52;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+  font-size: 2rem;
+  transition: text-shadow, color, font-size 0.4s;
+}
+
+.header a:hover {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #cbbf7a,
+    0 0 30px #cbbf7a;
+  color: black;
+  font-size: 3rem;
+  transition: text-shadow, color, font-size 0.2s;
+}
+
+.specialButton {
+  background-color: #000000;
+  border-radius: 80px/70px;
+  padding: 15px;
+  z-index: 52;
+}
+
+.logo {
+  font-family: BOB;
+  font-size: 6rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 12px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #7c18ff, 0 0 55px #7c18ff, 0 0 75px #7c18ff;
+  filter: drop-shadow(0px 0px 5px #7c18ff);
+  transition: text-shadow 0.4s, font-size 0.4s;
+  z-index: 52;
+}
+
+.logo:hover {
+  font-size: 7rem;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #7c18ff,
+    0 0 30px #7c18ff, 0 0 40px #7c18ff, 0 0 55px #7c18ff, 0 0 75px #7c18ff;
+  transition: text-shadow 0.2s, font-size 0.2s;
+}
+
+div.dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 80px;
+  padding: 0;
+  background-color: #000000;
+}
+
+div.dropdown > a {
+  display: none;
+}
+
+div.dropdown > a.woman {
+  margin: 20px;
+  margin-top: 5px;
+}
+
+div.dropdown > a.man {
+  margin: 20px;
+}
+
+div.dropdown:hover > a {
+  display: unset;
+}
+
+a.dropdownParent:hover > div > a {
+  display: unset;
+}
+
+@media only screen and (max-width: 900px) {
+  .header ul {
+    flex-direction: column;
+  }
+  .specialButton {
+    order: -1;
+    padding-top: 0px;
+  }
+
+  .logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .header {
+    position: relative;
+    height: 550px;
+  }
+  .dropdownParent {
+    display: flex;
+    flex-direction: row;
+  }
+  div.dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    padding: 0;
+    background-color: #000000;
+  }
+  div.dropdown > a.woman {
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+
+  div.dropdown > a.man {
+    margin: 20px;
+    margin-top: 0px;
+  }
+  .odeca {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+}

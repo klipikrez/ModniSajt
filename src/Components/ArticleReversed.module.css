@@ -1,0 +1,9 @@
+.article {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 900px) {
+  .article {
+    flex-direction: column;
+  }
+}
