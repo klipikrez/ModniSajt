@@ -42,8 +42,8 @@ function AboutPage(params) {
         učinimo da vaš stil priča vašu jedinstvenu priču.
       </p>
       <p style={{ textAlign: "center", marginBottom: 0 }}>
-        Dobrodošli u <span className="bob">Bob</span>, gde se modna inspiracija
-        rađa iz svakodnevnog života.
+        <span className="bob">Bob</span>, gde se modna inspiracija rađa iz
+        svakodnevnog života.
       </p>
     </Container>
   );
