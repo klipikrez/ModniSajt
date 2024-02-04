@@ -27,14 +27,14 @@ function Navigation(params) {
           </li>
           <li className={classes.specialButton}>
             <Link to="/">
-              <p className={classes.logo}>Bob</p>
+              <p className={classes.logo}>Fashion World</p>
             </Link>
           </li>
           <li>
             <Link to="/news">Novosti</Link>
           </li>
           <li>
-            <Link to="/about">O nas</Link>
+            <Link to="/about">O nama</Link>
           </li>
         </ul>
       </nav>

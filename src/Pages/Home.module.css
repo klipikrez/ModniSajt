@@ -4,7 +4,7 @@ div.body > main {
 
 .imageRack > div > div {
   width: 250px;
-  height: 100px;
+  height: 170px;
   overflow-y: hidden;
 }
 
@@ -13,6 +13,7 @@ div.body > main {
   flex-direction: row;
   position: relative;
   width: 100%;
+  height: auto;
   padding: 0;
 }
 
@@ -26,7 +27,7 @@ div.body > main {
 
 .imageTower > div > div {
   width: 100%;
-  height: 100px;
+  height: 400px;
   overflow-y: hidden;
 }
 

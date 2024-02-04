@@ -1,7 +1,7 @@
 import Container from "../Components/Container";
 import classes from "./News.module.css";
 import ArticleWide from "../Components/ArticleWide";
-import polka from "../media/auu.png";
+import polka from "../media/auu.jpeg";
 function NewsPage(params) {
   return (
     <Container>

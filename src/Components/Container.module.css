@@ -6,7 +6,7 @@
 main {
   margin-top: 72px;
   max-width: 50rem;
-  background-color: #7c18ff;
+  background-color: #232653;
   background-image: url(../media/poker.png);
   background-repeat: repeat;
   padding: 5rem;
@@ -14,7 +14,7 @@ main {
   border-bottom-left-radius: 2rem;
   position: relative;
   bottom: 0px;
-  filter: drop-shadow(0 0 10px #7c18ff);
+  filter: drop-shadow(0 0 10px #232653);
   animation-name: start;
   animation-duration: 1s;
 }
@@ -33,7 +33,7 @@ main {
 }
 
 main:hover ~ .overlay {
-  filter: brightness(40%);
+  filter: brightness(60%);
   transition: filter 1.2s;
 }
 
