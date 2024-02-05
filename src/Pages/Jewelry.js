@@ -9,31 +9,28 @@ function JewelryPage(params) {
     <Container>
       {" "}
       <ArticleWideContent
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Chrome narukvica"
         style={(classes.ImageContainer, {})}
         src={polka11}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. 
+        
       </ArticleWideContent>{" "}
       <ArticleWideContent
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Crystal minđuše"
         style={(classes.ImageContainer, {})}
         src={polka4}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. 
+      
       </ArticleWideContent>{" "}
       <ArticleWideContent
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Black heart minđuše"
         style={(classes.ImageContainer, {})}
         src={polka5}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. 
+       
       </ArticleWideContent>
     </Container>
   );

@@ -15,7 +15,7 @@ function HomePage(params) {
     <Container className={classes.body}>
       <div className={classes.horizontal}>
         <ImageContainer
-          description=""
+          description="Jesen ss19"
           id="BOB"
           style={(classes.ImageContainer, { position: "relative" })}
           src={slika}
@@ -23,19 +23,19 @@ function HomePage(params) {
 
         <div className={classes.imageRack}>
           <ImageContainer
-            description="Idemo u napad!"
+            description=""
             id="BOB"
             style={(classes.ImageContainer, {})}
             src={slika4}
           />
           <ImageContainer
-            description="Idemo u napad!"
+            description=""
             id="BOB"
             style={(classes.ImageContainer, {})}
             src={slika5}
           />
           <ImageContainer
-            description="Idemo u napad!"
+            description=""
             id="BOB"
             style={(classes.ImageContainer, {})}
             src={slika6}
@@ -44,19 +44,19 @@ function HomePage(params) {
       </div>
       <div className={classes.imageTower}>
         <ImageContainer
-          description="Idemo u napad!"
+          description="Leto ss21"
           id="BOB"
           style={(classes.ImageContainer, {})}
           src={slika7}
         />
         <ImageContainer
-          description="Idemo u napad!"
+          description="Leto ss22"
           id="BOB"
           style={(classes.ImageContainer, {})}
           src={slika8}
         />
         <ImageContainer
-          description="Idemo u napad!"
+          description="Jesen ss22"
           id="BOB"
           style={(classes.ImageContainer, {})}
           src={slika9}

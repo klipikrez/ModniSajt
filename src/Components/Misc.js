@@ -23,14 +23,13 @@ function Misc(params) {
   return (
     <div className={classes.misc}>
       <p>
-        <h3>KONTAKTIRAJTE SAVJETNIKA</h3>
+        <h3>KONTAKTIRAJTE SAVETNIKA</h3>
         Podrška za korisnike <span className="bob">Fashion World</span> dostupna je od
-        ponedjeljka do nedjelje, od 7 do 12 sati po istočnom vremenu. da
-        odgovorim na sva vaša pitanja.
+        ponedeljka do nedelje, od 9 do 12 sati. 
         <br />
         <br />
-        Molimo vas da nam pošaljete e-poštu, pozovite 1.800.550.0005 ili
-        razgovarajte uživo sa <span className="bob">Fashion World</span> savjetnikom.
+        Ukoliko imate pitanja, molimo vas da nam pošaljete e-poštu, pozovete 1.800.550.0005 ili
+        razgovarate uživo sa <span className="bob">Fashion World</span> savetnikom.
         <br />
         <a href="https://www.google.com/webhp?authuser=3">Email</a>
         <a href="https://www.google.com/webhp?authuser=3">Chat</a>
@@ -38,12 +37,12 @@ function Misc(params) {
       </p>
       <p>
         <h3>BILTEN</h3>
-        Pretplatite se da primate vijesti od <span className="bob">Fashion World</span>
+        Pretplatite se da primate vesti od <span className="bob">Fashion World</span>
         <br />
         <input type="texbox" placeholder="Email"></input>
       </p>
       <p>
-        <h3>PRONAĐITE PRODAVNICU :)</h3>
+        <h3>PRONAĐITE PRODAVNICU </h3>
         Unesite lokaciju da pronađete najbliže <span className="bob">
         Fashion World
         </span>{" "}

@@ -10,51 +10,37 @@ function ClothesMalePage(params) {
   return (
     <Container>
       <ArticleReversed
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Jesen ss23"
         style={(classes.ImageContainer, {})}
         src={polka}
       >
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. Fusce non ullamcorper risus. Sed
-        nec ipsum vel nulla fermentum pretium. Proin fermentum felis nec velit
-        ultricies, vitae consequat turpis pharetra. Vivamus ut tempor lorem.
-        Integer sed leo eu lorem tempus consectetur. Ut nec justo sit amet odio
-        sodales scelerisque vel non quam. Quisque vitae ante vitae ex dignissim
-        condimentum.
+          Jesenja kombinacija braon sakoa sa elegantnom trakom i pantalonama, ukombinovano sa svilenom rolkom. 
+          <br></br>Paris Fashion Week (PFW) 2023
+       
         </p>
       </ArticleReversed>
       <Article
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Zima ss23"
         style={(classes.ImageContainer, {})}
         src={polka1}
       >
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. Fusce non ullamcorper risus. Sed
-        nec ipsum vel nulla fermentum pretium. Proin fermentum felis nec velit
-        ultricies, vitae consequat turpis pharetra. Vivamus ut tempor lorem.
-        Integer sed leo eu lorem tempus consectetur. Ut nec justo sit amet odio
-        sodales scelerisque vel non quam. Quisque vitae ante vitae ex dignissim
-        condimentum.
+        Klasičan komplet crnog sakoa i pantalona, i bele košulje sa crnom kravatom, upotpunjen modernim naočarama.
+        <br></br>São Paulo Fashion Week (SPFW) 2023
         </p>
       </Article>
       <ArticleReversed
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Proleće ss24"
         style={(classes.ImageContainer, {})}
         src={polka2}
       >
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. Fusce non ullamcorper risus. Sed
-        nec ipsum vel nulla fermentum pretium. Proin fermentum felis nec velit
-        ultricies, vitae consequat turpis pharetra. Vivamus ut tempor lorem.
-        Integer sed leo eu lorem tempus consectetur. Ut nec justo sit amet odio
-        sodales scelerisque vel non quam. Quisque vitae ante vitae ex dignissim
-        condimentum.
+          Aktuelna kombinacija svetlucavih kožnih braon pantalona, braon sakoa, i satenske otvorene košulje, omiljena od strane mnogih kritičara.
+          <br></br>Milano Fashion Week (MFW) 2024
         </p>
       </ArticleReversed>
     </Container>
