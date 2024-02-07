@@ -1,53 +1,47 @@
 import Article from "../Components/Article";
 import ArticleReversed from "../Components/ArticleReversed";
 import Container from "../Components/Container";
-import polka from "../media/auu.png";
+import slika1 from "../media/denim.jpeg";
+import slika2 from "../media/slika2.jpeg";
+import slika3 from "../media/slika3.jpeg";
 import classes from "./ClothesFemale.module.css";
 
 function ClothesFemalePage(params) {
   return (
     <Container>
       <Article
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Jesen ss23"
         style={(classes.ImageContainer, {})}
-        src={polka}
+        src={slika1}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. Fusce non ullamcorper risus. Sed
-        nec ipsum vel nulla fermentum pretium. Proin fermentum felis nec velit
-        ultricies, vitae consequat turpis pharetra. Vivamus ut tempor lorem.
-        Integer sed leo eu lorem tempus consectetur. Ut nec justo sit amet odio
-        sodales scelerisque vel non quam. Quisque vitae ante vitae ex dignissim
-        condimentum.
+        <p>
+        Kombinacija dvobojnih farmerki, majice sa printom, crnog sakoa sa leopard šarom, kao i tankog šala sa komplementarnim dezenoom.
+        <br></br> London Fashion Week (LFW) 2023
+        </p>
       </Article>
       <ArticleReversed
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Proleće ss24"
         style={(classes.ImageContainer, {})}
-        src={polka}
+        src={slika2}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. Fusce non ullamcorper risus. Sed
-        nec ipsum vel nulla fermentum pretium. Proin fermentum felis nec velit
-        ultricies, vitae consequat turpis pharetra. Vivamus ut tempor lorem.
-        Integer sed leo eu lorem tempus consectetur. Ut nec justo sit amet odio
-        sodales scelerisque vel non quam. Quisque vitae ante vitae ex dignissim
-        condimentum.
+        <p>
+       Moderna kombinacija sivog kardigana, sivo-maslinaste mini suknje, upotpunjena kožnim čizmama i malom crnom torbom.
+       <br></br> Paris Fashion Week (PFW) 2024
+       
+        </p>
       </ArticleReversed>
       <Article
-        description="Idemo u napad!"
-        id="Ime proizvoda ovđe"
+        description=""
+        id="Leto ss24"
         style={(classes.ImageContainer, {})}
-        src={polka}
+        src={slika3}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget sem
-        euismod, commodo nisi id, cursus diam. Fusce non ullamcorper risus. Sed
-        nec ipsum vel nulla fermentum pretium. Proin fermentum felis nec velit
-        ultricies, vitae consequat turpis pharetra. Vivamus ut tempor lorem.
-        Integer sed leo eu lorem tempus consectetur. Ut nec justo sit amet odio
-        sodales scelerisque vel non quam. Quisque vitae ante vitae ex dignissim
-        condimentum.
+        <p>
+        Bela svilena suknja, ukombinovana sa majicom bez rukava sa zmijskim dezenom, sa braon torbom. 
+        <br></br> São Paulo Fashion Week (SPFW) 2024
+        </p>
       </Article>
     </Container>
   );

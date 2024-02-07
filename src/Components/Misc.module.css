@@ -7,7 +7,7 @@
 .misc a {
   margin-inline: 1rem;
   text-decoration: none;
-  color: #7c18ff;
+  color: #000000;
 }
 
 .misc a:hover {
@@ -26,7 +26,7 @@
   border-style: solid;
   animation-name: start;
   animation-duration: 1s;
-  background-color: #7c18ff;
+  background-color: #2a2951;
 }
 
 .misc button:hover {
@@ -60,7 +60,7 @@
   width: 26%;
   margin: 10px;
   padding: 10px;
-  background-color: #7c18ff1f;
+  background-color: #afb3ca8d;
 }
 
 @media only screen and (max-width: 900px) {
@@ -72,3 +72,4 @@
     width: 90%;
   }
 }
+

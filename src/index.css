@@ -1,5 +1,5 @@
 body {
-  background-color: #2f095a;
+  background-color: #232653;
 
   margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -28,7 +28,7 @@ code {
 
 @font-face {
   font-family: "BOB"; /*a name to be used later*/
-  src: url(./media/fonts/BOBopis7.ttf); /*URL to font*/
+  src: url(./media/fonts/raphael.ttf); /*URL to font*/
 }
 
 @font-face {
@@ -54,14 +54,14 @@ h1 {
   padding: 15px;
   font-size: 3rem;
   text-align: center;
-  text-shadow: 0 0 5px #7c18ff;
+  text-shadow: 0 0 5px #232653;
   background-color: #000000;
   border-radius: 1rem;
 }
 
 h2 {
-  color: #ffffff;
-  text-shadow: 0 0 5px #7c18ff;
+  color: #000000;
+  text-shadow: 0 0 5px #232653;
   background-color: #000000;
   border-radius: 0.4rem;
   width: fit-content;
@@ -70,15 +70,15 @@ h2 {
 }
 
 h3 {
-  color: #ffffff;
+  color: #000000;
 }
 
 h4 {
-  color: #ffffff;
+  color: #000000;
 }
 
 p {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .bob {
