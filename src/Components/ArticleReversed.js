@@ -9,7 +9,7 @@ function ArticleReversed(params) {
     >
       <ImageContainer
         description=""
-        id="BOB"
+        alt={params.alt}
         style={(classes.ImageContainer, {})}
         src={params.src}
       />

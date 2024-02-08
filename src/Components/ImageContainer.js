@@ -5,7 +5,7 @@ function ImageContainer(params) {
     <div className={classes.ImageContainer} style={params.style}>
       <div>
         {params.children}
-        <img src={params.src} alt="xo"></img>
+        <img src={params.src} alt={params.alt}></img>
       </div>
       <span>{params.description}</span>
     </div>

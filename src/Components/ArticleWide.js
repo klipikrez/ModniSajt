@@ -8,7 +8,12 @@ function ArticleWide(params) {
       style={params.style}
     >
       <div className={classes.imageContainer}>
-        <ImageContainer description="" id="BOB" style={{}} src={params.src} />
+        <ImageContainer
+          description=""
+          alt={params.alt}
+          style={{}}
+          src={params.src}
+        />
         <div className={classes.textOverImage}>{params.children}</div>
       </div>
     </div>

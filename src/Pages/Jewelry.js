@@ -1,9 +1,9 @@
 import Container from "../Components/Container";
 import classes from "./Jewelry.module.css";
 import ArticleWideContent from "../Components/ArticleWideContent";
-import polka11 from "../media/auu.jpeg";
-import polka4 from "../media/3434.jpeg";
-import polka5 from "../media/1212.jpeg";
+import slika00 from "../media/auu.jpeg";
+import slika01 from "../media/3434.jpeg";
+import slika02 from "../media/1212.jpeg";
 function JewelryPage(params) {
   return (
     <Container>
@@ -11,27 +11,24 @@ function JewelryPage(params) {
       <ArticleWideContent
         description=""
         id="Chrome narukvica"
-        style={(classes.ImageContainer, {})}
-        src={polka11}
-      >
-        
-      </ArticleWideContent>{" "}
+        alt="Chrome narukvica"
+        style={({}, {})}
+        src={slika00}
+      ></ArticleWideContent>{" "}
       <ArticleWideContent
         description=""
         id="Crystal minđuše"
-        style={(classes.ImageContainer, {})}
-        src={polka4}
-      >
-      
-      </ArticleWideContent>{" "}
+        alt="Crystal minđuše"
+        style={({}, {})}
+        src={slika01}
+      ></ArticleWideContent>{" "}
       <ArticleWideContent
         description=""
         id="Black heart minđuše"
-        style={(classes.ImageContainer, {})}
-        src={polka5}
-      >
-       
-      </ArticleWideContent>
+        alt="Black heart minđuše"
+        style={({}, {})}
+        src={slika02}
+      ></ArticleWideContent>
     </Container>
   );
 }

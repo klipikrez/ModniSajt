@@ -12,35 +12,40 @@ function ClothesFemalePage(params) {
       <Article
         description=""
         id="Jesen ss23"
-        style={(classes.ImageContainer, {})}
+        alt="Jesen ss23"
+        style={({}, {})}
         src={slika1}
       >
         <p>
-        Kombinacija dvobojnih farmerki, majice sa printom, crnog sakoa sa leopard šarom, kao i tankog šala sa komplementarnim dezenoom.
-        <br></br> London Fashion Week (LFW) 2023
+          Kombinacija dvobojnih farmerki, majice sa printom, crnog sakoa sa
+          leopard šarom, kao i tankog šala sa komplementarnim dezenoom.
+          <br></br> London Fashion Week (LFW) 2023
         </p>
       </Article>
       <ArticleReversed
         description=""
         id="Proleće ss24"
-        style={(classes.ImageContainer, {})}
+        alt="Proleće ss24"
+        style={({}, {})}
         src={slika2}
       >
         <p>
-       Moderna kombinacija sivog kardigana, sivo-maslinaste mini suknje, upotpunjena kožnim čizmama i malom crnom torbom.
-       <br></br> Paris Fashion Week (PFW) 2024
-       
+          Moderna kombinacija sivog kardigana, sivo-maslinaste mini suknje,
+          upotpunjena kožnim čizmama i malom crnom torbom.
+          <br></br> Paris Fashion Week (PFW) 2024
         </p>
       </ArticleReversed>
       <Article
         description=""
         id="Leto ss24"
-        style={(classes.ImageContainer, {})}
+        alt="Leto ss24"
+        style={({}, {})}
         src={slika3}
       >
         <p>
-        Bela svilena suknja, ukombinovana sa majicom bez rukava sa zmijskim dezenom, sa braon torbom. 
-        <br></br> São Paulo Fashion Week (SPFW) 2024
+          Bela svilena suknja, ukombinovana sa majicom bez rukava sa zmijskim
+          dezenom, sa braon torbom.
+          <br></br> São Paulo Fashion Week (SPFW) 2024
         </p>
       </Article>
     </Container>

@@ -28,6 +28,7 @@
 .header li {
   margin: 1.5rem;
   z-index: 52;
+  white-space: nowrap;
 }
 
 .header a {
@@ -66,10 +67,11 @@
   filter: drop-shadow(0px 0px 5px #570000);
   transition: text-shadow 0.4s, font-size 0.4s;
   z-index: 52;
+  white-space: wrap;
 }
 
 .logo:hover {
-  font-size: 7rem;
+  font-size: 4rem;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #570000,
     0 0 30px #570000, 0 0 40px #570000, 0 0 55px #570000, 0 0 75px #570000;
   transition: text-shadow 0.2s, font-size 0.2s;
